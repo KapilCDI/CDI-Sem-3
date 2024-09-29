@@ -57,7 +57,8 @@
         android:text="@string/spin_message"
         app:layout_constraintBottom_toBottomOf="@+id/img1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/img1" />
+        app:layout_constraintTop_toTopOf="@+id/img1"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <ImageView
         android:id="@+id/img1"
