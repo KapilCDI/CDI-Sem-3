@@ -107,6 +107,8 @@ public class ChatRoom extends AppCompatActivity {
                 .show();
     }
 
+
+
     private void showUndoSnackbar() {
         Snackbar.make(findViewById(R.id.recyclerView), "Message deleted", Snackbar.LENGTH_LONG)
                 .setAction("Undo", v -> {

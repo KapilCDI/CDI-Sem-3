@@ -9,7 +9,7 @@ android {
     defaultConfig {
         applicationId = "com.example.flagapp"
         minSdk = 24
-        targetSdk = 35  // Update targetSdkVersion to 35
+        targetSdk = 33  // Update targetSdkVersion to 35
         versionCode = 1
         versionName = "1.0"
 
