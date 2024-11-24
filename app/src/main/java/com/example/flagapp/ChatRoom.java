@@ -8,9 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.google.android.material.snackbar.Snackbar;
-
 import java.util.List;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
@@ -73,6 +71,7 @@ public class ChatRoom extends AppCompatActivity {
             addMessageToViewAndDatabase(newMessage);
         });
     }
+
 
     private void addMessageToViewAndDatabase(ChatMessage newMessage) {
         // Add the message to the ViewModel
